@@ -12,7 +12,7 @@ resource "azurerm_container_group" "sonarqube" {
   os_type             = "Linux"
 
   container {
-    name   = "Sonarqube 8.0 Community"
+    name   = "sonarqube-community"
     image  = "sonarqube:community-beta"
     cpu    = "4"
     memory = "8"
